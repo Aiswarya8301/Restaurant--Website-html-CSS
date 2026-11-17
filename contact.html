@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <style>
+      .map-container {
+        width: 80%;
+        height: 400px;
+        margin: auto;
+        border: 3px solid red;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0px 5px 15px gray;
+      }
+
+      .map-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      .feedback {
+        width: 400px;
+        margin: 50px auto;
+        padding: 25px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px gray;
+      }
+
+      h1 {
+        text-align: center;
+        color: red;
+      }
+
+      label {
+        display: block;
+        margin-top: 15px;
+        font-weight: bold;
+      }
+
+      input,
+      select,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        box-sizing: border-box;
+        border: 1px solid gray;
+        border-radius: 5px;
+      }
+
+      button {
+        width: 100%;
+        padding: 12px;
+        margin-top: 20px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: darkred;
+      }
+      footer {
+        background-color: #222222;
+        color: white;
+        text-align: center;
+        padding: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="color: #000000; font-weight: bold">
+      KFC, Balaramapuram - Fried Chicken, Wings & Burger Restaurant in
+      Thiruvananthapuram
+    </h2>
+    <hr />
+    <h3
+      style="
+        color: red;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: underline;
+      "
+    >
+      Address
+    </h3>
+    <p style="font-weight: bold">
+      SNV Tower Balaramapuram Thiruvananthapuram - 695501
+    </p>
+    <h3
+      style="
+        color: red;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: underline;
+      "
+    >
+      Phone No
+    </h3>
+    <h3>+917685987890</h3>
+    <h3
+      style="
+        color: red;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: underline;
+      "
+    >
+      Restaurants Timing
+    </h3>
+    <li style="font-weight: bold">Mon : 11:00 AM - 11:00 PM</li>
+    <br />
+    <li style="font-weight: bold">Tue : 11:00 AM - 11:00 PM</li>
+    <br />
+    <li style="font-weight: bold">Wed : 11:00 AM - 11:00 PM</li>
+    <br />
+    <li style="font-weight: bold">Thu : 11:00 AM - 11:00 PM</li>
+    <br />
+    <li style="font-weight: bold">Fri : 11:00 AM - 11:00 PM</li>
+    <br />
+    <li style="font-weight: bold">Sat : 11:00 AM - 11:00 PM</li>
+    <br />
+    <li style="font-weight: bold">Sun : 11:00 AM - 11:00 PM</li>
+
+    <h3
+      style="
+        color: red;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: underline;
+      "
+    >
+      Our Restaurant Location
+    </h3>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.7491033434694!2d77.03957667504108!3d8.426282398132093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05af56028d67df%3A0x3c7f3645b9f338e4!2sKFC!5e0!3m2!1sen!2sin!4v1793595675114!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
+    </div>
+    <div class="feedback">
+      <h1>Customer Feedback</h1>
+      <p>We value your feedback!</p>
+
+      <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name" required />
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email" required />
+
+        <label>Phone Number:</label>
+        <input type="tel" placeholder="Enter phone number" />
+
+        <label>Rate Our Service:</label>
+        <select>
+          <option>Select Rating</option>
+          <option>Excellent</option>
+          <option>Good</option>
+          <option>Average</option>
+          <option>Poor</option>
+        </select>
+
+        <label>Your Feedback:</label>
+        <textarea rows="5" placeholder="Write your feedback"></textarea>
+
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </div>
+    <a
+      style="color: blue; font-size: large; font-weight: bold"
+      href="./index.html"
+      >>>Back Home>></a
+    >
+
+    <footer id="contact">
+      <h2>Contact Us</h2>
+      <p>Phone no: +917685987890</p>
+      <p>Email: kfcbalaramapuram@gmail.com</p>
+      <p>© 2026 KFC Restaurant Website</p>
+    </footer>
+  </body>
+</html>
